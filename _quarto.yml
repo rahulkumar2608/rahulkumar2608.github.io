@@ -7,15 +7,21 @@ website:
     left:
       - href: index.qmd
         text: Home
-      - href: projects/index.qmd
-        text: Technical Projects
+      # This creates a structured dropdown menu for all your services/themes
+      - text: "Core Themes"
+        menu:
+          - href: themes/geospatial.qmd
+            text: "🛰️ Geospatial Data Engineering"
+          - href: themes/data-science.qmd
+            text: "📊 Environmental Data Science"
+          - href: themes/water-engineering.qmd
+            text: "💧 Water & Wastewater Engineering"
+          - href: themes/esg-sustainability.qmd
+            text: "🌿 ESG, LCA & Sustainability"
       - href: resume.qmd
-        text: CV & Publications
-      - href: about.qmd
-        text: About & Contact
+        text: "CV & Publications"
 
 format:
   html:
     theme: cosmo
-    css: styles.css
     toc: true
