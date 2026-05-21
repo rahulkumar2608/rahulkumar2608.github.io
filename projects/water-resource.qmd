@@ -1,0 +1,23 @@
+---
+title: "National-Scale Water Resource Assessment Dashboard"
+subtitle: "Google Earth Engine Web Application for Hydro-Climatic Monitoring"
+date: "2025-10-01"
+categories: [GeoAI, GEE, Cloud Compute, Hydrology]
+---
+
+### 1. The Challenge
+[cite_start]Water resource planning in climate-stressed catchments requires processing massive spatial datasets[cite: 136, 157]. [cite_start]Non-technical government and industry stakeholders lack the tools to query complex, high-resolution remote sensing time-series data efficiently[cite: 148, 155].
+
+### 2. The Solution
+[cite_start]Developed a scalable web-based geospatial application using **Google Earth Engine** and the **AlphaEarth embedding dataset** for regional surface water change detection and watershed monitoring[cite: 153, 154].
+
+```javascript
+// Example code snippet embedded directly into your site
+// Generating water index time-series
+var collection = ee.ImageCollection('COPERNICUS/S2_SR')
+  .filterBounds(roi)
+  .filterDate('2025-01-01', '2026-01-01')
+  .map(function(image) {
+    var ndwi = image.normalizedDifference(['B3', 'B8']).rename('NDWI');
+    return image.addBands(ndwi);
+  });
