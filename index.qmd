@@ -1,0 +1,31 @@
+---
+title: "Dr. Rahul Kumar"
+subtitle: "Ph.D. Research Scientist & Environmental Data Engineer"
+image: profile.jpg # Add a professional headshot later
+about:
+  template: jolla
+  links:
+    - icon: linkedin
+      text: LinkedIn
+      href: https://linkedin.com/in/rahulkumar2608
+    - icon: github
+      text: GitHub
+      href: https://github.com/rahulkumar2608
+---
+
+I am an IIT Bombay Ph.D. [cite_start]Research Scientist specializing in the intersection of geospatial analytics, hydrology, and environmental data science[cite: 5]. [cite_start]Awarded the prestigious Prime Minister's Research Fellowship (PMRF), I design and deploy automated data pipelines, remote sensing workflows, and decentralized water technologies to solve climate-water-land nexus challenges[cite: 5, 134, 229].
+
+### Core Specializations
+
+::: {layout-nw="[[1,1,1]]"}
+#### 🛰️ Geospatial & GeoAI
+[cite_start]Engineering automated cloud pipelines using **Google Earth Engine** and **Python** to process multi-temporal satellite imagery (Sentinel-1/2, Landsat) for large-scale environmental monitoring[cite: 15, 30, 137].
+
+#### 💧 Hydrology & Water Engineering
+[cite_start]Designing mathematical simulation models and patent-pending physical water treatment infrastructure for decentralized resource management and disaster response[cite: 114, 122, 129, 183].
+
+#### 📊 Sustainability Analytics
+[cite_start]Translating dense hydro-climatic, atmospheric, and environmental datasets into executive decision-support tools and interactive dashboards[cite: 6, 16, 153].
+:::
+
+[View Technical Case Studies](projects/index.qmd){.btn .btn-primary .btn-lg role="button"}
