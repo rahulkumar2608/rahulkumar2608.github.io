@@ -1,0 +1,21 @@
+project:
+  type: website
+
+website:
+  title: "Dr. Rahul Kumar"
+  navbar:
+    left:
+      - href: index.qmd
+        text: Home
+      - href: projects/index.qmd
+        text: Technical Projects
+      - href: resume.qmd
+        text: CV & Publications
+      - href: about.qmd
+        text: About & Contact
+
+format:
+  html:
+    theme: cosmo
+    css: styles.css
+    toc: true
